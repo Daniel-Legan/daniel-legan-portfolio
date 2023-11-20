@@ -1,11 +1,12 @@
 import React from 'react';
 
 const AboutMe = () => {
+    const profileUrl = process.env.PUBLIC_URL + '/images/IMG_4851.jpeg';
+    
     return (
         <div className="about-me">
-            {/* Replace 'TBD' with the path or URL to profile picture */}
             <img
-                src="TBD"
+                src={profileUrl}
                 alt="Profile Picture"
                 className="profile-picture"
             />

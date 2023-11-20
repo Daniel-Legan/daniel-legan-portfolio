@@ -19,9 +19,8 @@ body {
 }
 
 .profile-picture {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  height: 300px;
+  /* border-radius: 50%; */
 }
 
 .repo-card {
@@ -69,7 +68,6 @@ body {
   }
 
   .profile-picture {
-    width: 120px;
     height: 120px;
   }
 
