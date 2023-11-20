@@ -6,7 +6,7 @@ const AboutMe = () => {
             {/* Replace 'TBD' with the path or URL to profile picture */}
             <img
                 src="TBD"
-                alt="Profile"
+                alt="Profile Picture"
                 className="profile-picture"
             />
             <h1>About Me</h1>
