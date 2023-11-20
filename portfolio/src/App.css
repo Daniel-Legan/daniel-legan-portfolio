@@ -1,0 +1,31 @@
+/* Define styles for the components */
+.app {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.about-me {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.repo-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.repo-card h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.repo-card h3 a:hover {
+  text-decoration: underline;
+}
