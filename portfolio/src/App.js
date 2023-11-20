@@ -1,28 +1,23 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import reposData from './reposData';
 import AboutMe from './components/AboutMe';
-import RepoCard from './components/RepoCard';
 import NavBar from './components/NavBar';
+import Repos from './components/Repos';
+import ContactForm from './components/ContactForm'; // Import the ContactForm component
 
 const App = () => {
-  const featuredRepos = reposData;
-
   return (
-    <div>
-      <NavBar />
+    <Router>
       <div className="app">
-        <AboutMe />
-        <div className="repos-container">
-          <h2>Featured Repositories</h2>
-          <div className="repo-cards">
-            {featuredRepos.map((repo) => (
-              <RepoCard key={repo.id} repo={repo} />
-            ))}
-          </div>
-        </div>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/repos" element={<Repos /> } />
+          <Route path="/contact" element={<ContactForm />} />
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 };
 
