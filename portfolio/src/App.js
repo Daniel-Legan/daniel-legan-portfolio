@@ -4,18 +4,20 @@ import './App.css';
 import AboutMe from './components/AboutMe';
 import NavBar from './components/NavBar';
 import Repos from './components/Repos';
-import ContactForm from './components/ContactForm'; // Import the ContactForm component
+import ContactForm from './components/ContactForm';
 
 const App = () => {
   return (
     <Router>
-      <div className="app">
+      <div>
         <NavBar />
-        <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/repos" element={<Repos /> } />
-          <Route path="/contact" element={<ContactForm />} />
-        </Routes>
+        <div className="app">
+          <Routes>
+            <Route path="/" element={<AboutMe />} />
+            <Route path="/repos" element={<Repos />} />
+            <Route path="/contact" element={<ContactForm />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );
