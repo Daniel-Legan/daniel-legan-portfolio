@@ -17,6 +17,7 @@ const AboutMe = () => {
                 lectus vehicula accumsan. Proin non convallis lorem.
             </p>
         </div>
+        
     );
 };
 

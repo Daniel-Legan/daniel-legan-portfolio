@@ -1,4 +1,4 @@
-/* General styles */
+/* Reset and General styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,13 +6,15 @@ body {
   box-sizing: border-box;
 }
 
-/* Styling for larger screens */
+/* Container for the application */
 .app {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #f9f9f9;
 }
 
+/* About Me section */
 .about-me {
   text-align: center;
   margin-bottom: 30px;
@@ -21,8 +23,10 @@ body {
 .profile-picture {
   height: 300px;
   /* border-radius: 50%; */
+  margin-bottom: 20px;
 }
 
+/* Repository Card */
 .repo-card {
   display: flex;
   border: 1px solid #ccc;
@@ -45,6 +49,7 @@ body {
   flex: 1;
 }
 
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -61,7 +66,61 @@ body {
   cursor: pointer;
 }
 
-/* Styling for smaller screens */
+/* Contact Form */
+.contact-form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #fff;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+
+.contact-form textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  height: 200px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  height: 40px;
+}
+
+.resume-button,
+.send-button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
 @media screen and (max-width: 600px) {
   .app {
     padding: 10px;
@@ -75,3 +134,7 @@ body {
     padding: 10px;
   }
 }
+
+/* * {
+  border: black solid;
+} */
