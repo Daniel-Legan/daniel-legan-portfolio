@@ -1,13 +1,13 @@
-const SalaryCalculator = process.env.PUBLIC_URL + '/images/SalaryCalculator.png';
-const FacelessPro = process.env.PUBLIC_URL + '/images/FacelessPro.png';
-const NoobToMaster = process.env.PUBLIC_URL + '/images/NoobToMaster.png';
-const WildlifeSpotter = process.env.PUBLIC_URL + '/images/WildlifeSpotter.png';
-const ServerSideCalculator = process.env.PUBLIC_URL + '/images/ServerSideCalculator.png';
-const ToDoList = process.env.PUBLIC_URL + '/images/ToDoList.png';
-const CSSChallenge = process.env.PUBLIC_URL + '/images/CSSChallenge.png';
-const ReactGallery = process.env.PUBLIC_URL + '/images/ReactGallery.png';
-const ReactReduxLoop = process.env.PUBLIC_URL + '/images/ReactReduxLoop.png';
-const ReactMovieSagas = process.env.PUBLIC_URL + '/images/ReactMovieSagas.png';
+const SalaryCalculator = process.env.PUBLIC_URL + '/images/repos/SalaryCalculator.png';
+const FacelessPro = process.env.PUBLIC_URL + '/images/repos/FacelessPro.png';
+const NoobToMaster = process.env.PUBLIC_URL + '/images/repos/NoobToMaster.png';
+const WildlifeSpotter = process.env.PUBLIC_URL + '/images/repos/WildlifeSpotter.png';
+const ServerSideCalculator = process.env.PUBLIC_URL + '/images/repos/ServerSideCalculator.png';
+const ToDoList = process.env.PUBLIC_URL + '/images/repos/ToDoList.png';
+const CSSChallenge = process.env.PUBLIC_URL + '/images/repos/CSSChallenge.png';
+const ReactGallery = process.env.PUBLIC_URL + '/images/repos/ReactGallery.png';
+const ReactReduxLoop = process.env.PUBLIC_URL + '/images/repos/ReactReduxLoop.png';
+const ReactMovieSagas = process.env.PUBLIC_URL + '/images/repos/ReactMovieSagas.png';
 
 const reposData = [
     {
@@ -35,7 +35,7 @@ const reposData = [
         // Other relevant information
     },
     {
-        id: 10,
+        id: 4,
         name: 'React Movie Sagas',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ultrices velit, at varius nulla malesuada non. Etiam vitae lorem vitae lectus vehicula accumsan. Proin non convallis lorem.',
         url: 'https://github.com/Daniel-Legan/weekend-movie-sagas-daniel-legan',
@@ -43,7 +43,7 @@ const reposData = [
         // Other relevant information
     },
     {
-        id: 8,
+        id: 5,
         name: 'React Gallery',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ultrices velit, at varius nulla malesuada non. Etiam vitae lorem vitae lectus vehicula accumsan. Proin non convallis lorem.',
         url: 'https://github.com/Daniel-Legan/weekend-react-gallery-daniel-legan',
@@ -51,7 +51,7 @@ const reposData = [
         // Other relevant information
     },
     {
-        id: 9,
+        id: 6,
         name: 'React Redux Survey Loop',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ultrices velit, at varius nulla malesuada non. Etiam vitae lorem vitae lectus vehicula accumsan. Proin non convallis lorem.',
         url: 'https://github.com/Daniel-Legan/weekend-redux-feedback-loop-daniel-legan',
@@ -67,7 +67,7 @@ const reposData = [
         // Other relevant information
     },
     {
-        id: 6,
+        id: 8,
         name: 'To-Do List',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ultrices velit, at varius nulla malesuada non. Etiam vitae lorem vitae lectus vehicula accumsan. Proin non convallis lorem.',
         url: 'https://github.com/Daniel-Legan/weekend-sql-to-do-list-daniel-legan',
@@ -75,7 +75,7 @@ const reposData = [
         // Other relevant information
     },
     {
-        id: 4,
+        id: 9,
         name: 'Salary Calculator',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ultrices velit, at varius nulla malesuada non. Etiam vitae lorem vitae lectus vehicula accumsan. Proin non convallis lorem.',
         url: 'https://github.com/Daniel-Legan/weekend-jquery-salary-calculator',
@@ -83,7 +83,7 @@ const reposData = [
         // Other relevant information
     },
     {
-        id: 5,
+        id: 10,
         name: 'Server Side Calculator',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ultrices velit, at varius nulla malesuada non. Etiam vitae lorem vitae lectus vehicula accumsan. Proin non convallis lorem.',
         url: 'https://github.com/Daniel-Legan/weekend-jquery-server-calculator',

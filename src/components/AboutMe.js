@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AboutMe = () => {
-    const profileUrl = process.env.PUBLIC_URL + '/images/IMG_4851.jpeg';
+    const profileUrl = process.env.PUBLIC_URL + '/images/profile/IMG_4851.jpeg';
     
     return (
         <div className="about-me">

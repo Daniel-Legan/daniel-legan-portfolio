@@ -11,7 +11,8 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #f3f3f3;
+  margin-top: 20px;
 }
 
 /* About Me section */
@@ -58,12 +59,18 @@ body {
   padding: 10px;
 }
 
+/* Navbar buttons */
 .navbar button {
   padding: 8px 16px;
-  background-color: #fff;
-  color: #333;
+  background-color: #333;
+  color: white;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #555;
 }
 
 /* Contact Form */
@@ -118,6 +125,21 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
+}
+
+/* Styling for social icons */
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 0 10px;
+}
+
+.social-icon {
+  height: 30px;
 }
 
 /* Responsive Styles */

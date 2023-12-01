@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
     const resumeUrl = process.env.PUBLIC_URL + '/resume/Legan Daniel Resume.pdf';
+    const githubLogo = process.env.PUBLIC_URL + '/images/logos/github-mark.png';
+    const linkedinLogo = process.env.PUBLIC_URL + '/images/logos/LI-In-Bug.png';
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -37,6 +39,14 @@ const ContactForm = () => {
     return (
         <div className="contact-form">
             <h2>Contact Me</h2>
+            <div className="social-links">
+                <a href="https://github.com/daniel-legan" target="_blank" rel="noopener noreferrer">
+                    <img src={githubLogo} alt="GitHub" className="social-icon" />
+                </a>
+                <a href="https://www.linkedin.com/in/daniel-legan-365120241" target="_blank" rel="noopener noreferrer">
+                    <img src={linkedinLogo} alt="LinkedIn" className="social-icon" />
+                </a>
+            </div>
             <form onSubmit={sendEmail}>
                 <div>
                     <label>Name</label>
