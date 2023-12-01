@@ -67,7 +67,7 @@ const ContactForm = () => {
                 <div className="button-group">
                     <a href={resumeUrl} download="Legan_Daniel_Resume.pdf">
                         <button type="button" className="resume-button">
-                            Download Resume
+                            Download My Resume
                         </button>
                     </a>
                     <button type="submit" className="send-button">
