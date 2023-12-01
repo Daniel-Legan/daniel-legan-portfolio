@@ -29,7 +29,7 @@ const reposData = [
     {
         id: 3,
         name: 'Faceless Pro',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ultrices velit, at varius nulla malesuada non. Etiam vitae lorem vitae lectus vehicula accumsan. Proin non convallis lorem.',
+        description: 'Proin non convallis lorem.',
         url: 'https://github.com/Daniel-Legan/faceless-pro',
         image: FacelessPro
         // Other relevant information

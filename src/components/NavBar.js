@@ -11,7 +11,7 @@ const NavBar = () => {
             </div>
             <div className="nav-right">
                 <Link to="/repos">
-                    <button>Featured Repositories</button>
+                    <button>Projects</button>
                 </Link>
                 <Link to="/contact">
                     <button>Contact Me</button>
