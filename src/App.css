@@ -35,6 +35,8 @@ body {
   height: 300px;
   border-radius: 50%;
   overflow: hidden;
+  border: 1px solid black;
+  box-shadow: 5px 5px black;
 }
 
 .profile-picture {
@@ -49,7 +51,8 @@ body {
   border: 1px solid #ccc;
   margin-bottom: 15px;
   padding: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  box-shadow: 5px 5px black;
 }
 
 .repo-content {
