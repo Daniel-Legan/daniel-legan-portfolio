@@ -1,17 +1,26 @@
 /* Reset and General styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url('../public/images/background/wallpaperflare.com_wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 3.5em;
 }
 
 /* Container for the application */
 .app {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f3f3f3;
   margin-top: 20px;
 }
 
@@ -23,6 +32,9 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
+  border: 1px solid black;
+  box-shadow: 5px 5px black;
+  background-color: rgb(238, 222, 205);
 }
 
 .about-content {
@@ -35,7 +47,6 @@ body {
   border-radius: 50%;
   overflow: hidden;
   border: 1px solid black;
-  box-shadow: 5px 5px black;
 }
 
 .profile-picture {
@@ -47,11 +58,11 @@ body {
 /* Repository Card */
 .repo-card {
   display: flex;
-  border: 1px solid #ccc;
   margin-bottom: 15px;
   padding: 10px;
   border: 1px solid black;
   box-shadow: 5px 5px black;
+  background-color: #ffffff;
 }
 
 .repo-content {
@@ -63,14 +74,17 @@ body {
   width: 200px;
   height: auto;
   margin-right: 20px;
+  border: 1px solid black
 }
 
-.repo-details {
-  flex: 1;
+.repo-details h3 a {
+  text-decoration: none;
+  color: black;
 }
 
 /* Navbar */
 .navbar {
+  font-family: 'Courier New', Courier, monospace;
   display: flex;
   justify-content: space-between;
   background-color: #333;
@@ -79,6 +93,8 @@ body {
 }
 
 .navbar button {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   padding: 8px 16px;
   background-color: #333;
   color: white;
@@ -94,10 +110,11 @@ body {
 /* Contact Form */
 .contact-form {
   padding: 20px;
-  border: 1px solid #ccc;
   margin: 20px auto;
   max-width: 400px;
-  background-color: #fff;
+  border: 1px solid black;
+  box-shadow: 5px 5px black;
+  background-color: #ffffff;
 }
 
 .contact-form h2 {
@@ -137,6 +154,8 @@ body {
 
 .resume-button,
 .send-button {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   padding: 8px 16px;
   background-color: #333;
   color: #fff;

@@ -38,7 +38,7 @@ const ContactForm = () => {
 
     return (
         <div className="contact-form">
-            <h2>Contact Me</h2>
+            <h2><u>Contact Me</u></h2>
             <div className="social-links">
                 <a href="https://github.com/daniel-legan" target="_blank" rel="noopener noreferrer">
                     <img src={githubLogo} alt="GitHub" className="social-icon" />

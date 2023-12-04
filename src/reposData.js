@@ -60,7 +60,7 @@ const reposData = [
     },
     {
         id: 7,
-        name: 'CSS Challenge (Facebook)',
+        name: 'CSS Facebook',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ultrices velit, at varius nulla malesuada non. Etiam vitae lorem vitae lectus vehicula accumsan. Proin non convallis lorem.',
         url: 'https://github.com/Daniel-Legan/comments-css-challenge',
         image: CSSChallenge

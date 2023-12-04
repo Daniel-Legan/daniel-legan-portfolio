@@ -7,7 +7,7 @@ const Repos = () => {
 
     return (
         <div className="repos-container">
-            <h2>Projects</h2>
+            <h2><u>Projects</u></h2>
             <div className="repo-cards">
                 {featuredRepos.map((repo) => (
                     <RepoCard key={repo.id} repo={repo} />
