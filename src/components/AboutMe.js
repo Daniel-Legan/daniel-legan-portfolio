@@ -20,7 +20,7 @@ const AboutMe = () => {
                         If you're looking for a developer to add to your team, I'd love to hear from you!
                     </p>
                     <p>
-                        Prior to transitioning into a developer role, I pursued a career in the medical field as a Medical Technologist. However, this path didn't align with my interests, and I've since discovered a genuine passion for coding and building cool applications.
+                        Prior to transitioning into a developer role, I held a career in the medical field as a Medical Technologist. However, this path didn't align with my interests, and I've since discovered a genuine passion for coding and building cool applications.
                     </p>
                     <p>
                         Outside of coding, I love finding reasons to get outdoors and soak up nature, whether it's hiking, biking, or backpacking.
