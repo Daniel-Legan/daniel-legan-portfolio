@@ -27,7 +27,6 @@ body {
 
 .about-content {
   flex: 1;
-  max-width: 50%;
 }
 
 .profile-picture-container {
@@ -174,18 +173,9 @@ body {
   .profile-picture-container {
     width: 200px;
     height: 200px;
-    margin-bottom: 20px;
-  }
-
-  .profile-picture {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
   }
 
   .about-content {
-    flex: 1;
     max-width: 100%;
     text-align: center;
   }
@@ -219,5 +209,22 @@ body {
   .repo-details h3,
   .repo-details p {
     margin: 2px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .button-group a {
+    width: 100%;
+    display: block;
+  }
+
+  .resume-button,
+  .send-button {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
