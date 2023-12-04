@@ -53,7 +53,7 @@ const reposData = [
     {
         id: 6,
         name: 'React Redux Survey Loop',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus ultrices velit, at varius nulla malesuada non. Etiam vitae lorem vitae lectus vehicula accumsan. Proin non convallis lorem.',
+        description: 'Lorem ipsum dolor sit amet.',
         url: 'https://github.com/Daniel-Legan/weekend-redux-feedback-loop-daniel-legan',
         image: ReactReduxLoop
         // Other relevant information
