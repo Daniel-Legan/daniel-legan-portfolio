@@ -76,7 +76,7 @@ const ContactForm = () => {
                     />
                 </div>
                 <div className="button-group">
-                    <a href={resumeUrl} download="Legan_Daniel_Resume.pdf">
+                    <a href={resumeUrl} download="Daniel Legan Resume.pdf">
                         <button type="button" className="resume-button">
                             Download My Resume
                         </button>

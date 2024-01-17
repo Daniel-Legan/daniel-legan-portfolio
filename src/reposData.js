@@ -14,6 +14,7 @@ const reposData = [
         id: 1,
         name: 'Wildlife Spotter (in process)',
         description: 'A full-stack web application that allows users to save animal markers on a map. Users can pan to different locations by searching for them.',
+        url: 'https://github.com/Daniel-Legan/wildlife-spotter',
         image: WildlifeSpotter
     },
     {
