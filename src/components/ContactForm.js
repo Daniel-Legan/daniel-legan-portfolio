@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
-    const resumeUrl = process.env.PUBLIC_URL + '/resume/Legan Daniel Resume.pdf';
+    const resumeUrl = process.env.PUBLIC_URL + '/resume/Daniel Legan Resume.pdf';
     const githubLogo = process.env.PUBLIC_URL + '/images/logos/github-mark.png';
     const linkedinLogo = process.env.PUBLIC_URL + '/images/logos/LI-In-Bug.png';
 
